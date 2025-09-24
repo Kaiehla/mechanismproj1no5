@@ -21,11 +21,6 @@ The project features a modern design with a **header, footer, hero section, test
 - Gallery section:  
   - 2 columns, alternating content (Photo - Text / Text - Photo)  
   - 4 rows total  
-- Each section must begin with a heading:  
-  - “This is the [section title] section”  
-- All non-image elements are labeled as:  
-  - “This is a [element title]”  
-
 ---
 
 ## 🛠 Tech Stack  

@@ -81,7 +81,7 @@ function Testimonial() {
       </h1>
       <p className="text-sm sm:text-base text-neutral-950 font-normal leading-relaxed max-w-2xl mt-4 mb-12 px-5">
         Discover why our clients love us! From stunning nail designs to
-        exceptional service, hear their stories and see how we've transformed
+        exceptional service, hear their stories and see how we&apos;ve transformed
         their nail care experience.
       </p>
 

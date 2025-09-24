@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import BGHero from "@/public/Background.png";
+import Link from "next/link";
 
 function Hero() {
   return (
@@ -38,7 +39,7 @@ function Hero() {
 
             {/* CTA */}
             <div className="flex flex-row items-center space-x-4 sm:space-x-6 lg:space-x-8">
-              <a
+              <Link
                 href="#"
                 className="group inline-flex items-center px-4 py-3 sm:px-8 sm:py-4 bg-white/5 backdrop-blur-md border border-white/20 text-white font-light text-sm sm:text-base lg:text-lg tracking-wide hover:bg-white/10 hover:border-white/30 transition-all duration-500 rounded-sm flex-1 sm:flex-none justify-center"
               >
@@ -57,7 +58,7 @@ function Hero() {
                     d="M17 8l4 4m0 0l-4 4m4-4H3"
                   />
                 </svg>
-              </a>
+              </Link>
 
               <div className="flex items-center space-x-2 sm:space-x-3 text-white/40 flex-shrink-0">
                 <div className="w-px h-6 sm:h-8 bg-white/20"></div>

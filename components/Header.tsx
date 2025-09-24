@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Logo from "@/public/logo.svg";
+import Link from "next/link";
 
 function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -42,37 +43,37 @@ function Header() {
 
           {/* Left Navigation Links */}
           <div className="hidden lg:flex items-center space-x-8">
-            <a
+            <Link
               href="#nailDesigns"
               className="text-neutral-900 hover:text-amber-950 text-sm font-semibold transition-colors duration-300 relative group"
             >
               The Collection
               <span className="absolute bottom-0 left-0 w-0 h-px bg-gold-400 transition-all duration-300 group-hover:w-full"></span>
-            </a>
-            <a
+            </Link>
+            <Link
               href="#theCollection"
               className="text-neutral-900 hover:text-amber-950 text-sm font-semibold transition-colors duration-300 relative group"
             >
               Our Services
               <span className="absolute bottom-0 left-0 w-0 h-px bg-gold-400 transition-all duration-300 group-hover:w-full"></span>
-            </a>
-            <a
+            </Link>
+            <Link
               href="#testimonials"
               className="text-neutral-900 hover:text-amber-950 text-sm font-semibold transition-colors duration-300 relative group"
             >
               Testimonials
               <span className="absolute bottom-0 left-0 w-0 h-px bg-gold-400 transition-all duration-300 group-hover:w-full"></span>
-            </a>
+            </Link>
           </div>
 
           {/* Center Logo */}
           <div className="flex-1 lg:flex-none lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2">
-            <a
+            <Link
               href="/"
               className="flex items-center justify-center lg:justify-start"
             >
               <Image src={Logo} alt="Logo" width={250} height={60} />
-            </a>
+            </Link>
           </div>
 
           {/* Right Icon Links */}
@@ -158,7 +159,7 @@ function Header() {
                   { href: "#experiences", label: "Our Services" },
                   { href: "#luxury", label: "Testimonials" },
                 ].map((link, index) => (
-                  <a
+                  <Link
                     key={link.href}
                     href={link.href}
                     className={`block text-white/90 hover:text-white text-lg font-light transition-all duration-300 hover:translate-x-2 transform ${
@@ -174,7 +175,7 @@ function Header() {
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 ))}
               </div>
 

@@ -51,7 +51,7 @@ function PhotoGallery() {
         </h1>
         <p className="text-sm sm:text-base text-neutral-100 font-normal leading-relaxed max-w-2xl mt-4 mb-3 lg:mb-12 mx-auto">
           Dive into a world of vibrant colors and chic designs with our curated
-          nail art collection. Whether you're looking for everyday elegance or
+          nail art collection. Whether you&apos;re looking for everyday elegance or
           bold, statement-making styles, our gallery has something for every
           mood and occasion.
         </p>

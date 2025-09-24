@@ -44,7 +44,7 @@ const Footer = () => {
           <div className="py-8 md:py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-x-6 md:gap-x-8 gap-y-8 md:gap-y-10 px-4 sm:px-6 xl:px-0">
             <div className="col-span-1 sm:col-span-2 md:col-span-1 xl:col-span-2">
               {/* Logo */}
-              <a
+              <Link
                 href="/"
                 className="flex items-center justify-center md:justify-start"
               >
@@ -55,7 +55,7 @@ const Footer = () => {
                   height={48}
                   className="w-auto h-10 sm:h-12 md:h-14"
                 />
-              </a>
+              </Link>
               <p className="mt-3 md:mt-4 text-sm md:text-base text-muted-foreground text-center md:text-left max-w-md mx-auto md:mx-0">
                 Express yourself with playful colors, bold designs, and a touch of glam. Premium nail artistry since 2020.
               </p>

@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Maison de Nails Website  
 
-## Getting Started
+This repository contains the implementation for **Task No. 5 Assessment**.  
 
-First, run the development server:
+The project features a modern design with a **header, footer, hero section, testimonial section, and photo gallery**. It was built using **Next.js, React, TailwindCSS, ShadCN, and TypeScript**.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Project Overview  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Key requirements:**  
+- Responsive design for desktop and mobile  
+- Header & Footer  
+- Hero section with:  
+  - H1 heading  
+  - Paragraph  
+  - Image (from Task No. 2, generated with Google Gemini AI)  
+- Testimonial section:  
+  - 3 columns  
+  - Each with a placeholder name, photo, and paragraph  
+- Gallery section:  
+  - 2 columns, alternating content (Photo - Text / Text - Photo)  
+  - 4 rows total  
+- Each section must begin with a heading:  
+  - “This is the [section title] section”  
+- All non-image elements are labeled as:  
+  - “This is a [element title]”  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠 Tech Stack  
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js** – Framework for React apps with routing and server-side rendering  
+- **React** – UI library for building components  
+- **TailwindCSS** – Utility-first styling for modern responsive design  
+- **ShadCN** – UI component library for consistent and elegant elements  
+- **TypeScript** – For type-safe React development  
+- **Google Gemini AI** – Used for generating images in Task No. 2 and all images from this site are sourced from here
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧩 Components  
 
-## Deploy on Vercel
+- **Header** – Contains brand name and navigation links  
+- **Hero** – Includes H1, paragraph, and image  
+- **Testimonials** – Three-column layout with placeholder name, photo, and text  
+- **Photo Gallery** – Two-column alternating layout (photo & text rows)  
+- **Footer** – Contains contact details, quick links, and copyright info  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Features  
+
+- Fully **responsive design** 
+- **Consistent layout** across all sections using TailwindCSS grid & flex utilities  
+- **Reusable components** powered by ShadCN  
+- **Placeholder content** structured to match assessment requirements  
+
+---
